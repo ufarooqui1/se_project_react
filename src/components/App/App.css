@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Cabinet Grotesk Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Cabinet Grotesk Regular"),
+    url("../../fonts/CabinetGrotesk-Regular.woff") format("woff");
+}
+body {
+  font-family: "Cabinet Grotesk Regular", Arial, sans-serif;
+}
+
+.page {
+  background-color: #f3f3f3;
+}
+
+.page__content {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
