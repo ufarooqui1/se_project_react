@@ -2,10 +2,9 @@ import "./Main.css";
 
 import WeatherCard from "../WeatherCard/WeatherCard";
 import ItemCard from "../ItemCard/ItemCard";
-import { defaultClothingItems } from "../../utils/constants";
 
-function Main({ weatherData, onCardClick }) {
-  const filteredItems = defaultClothingItems.filter(
+function Main({ weatherData, clothingItems, onCardClick }) {
+  const filteredItems = clothingItems.filter(
     (item) => item.weather === weatherData.type
   );
   return (
